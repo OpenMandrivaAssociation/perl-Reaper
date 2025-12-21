@@ -18,6 +18,7 @@ Obsoletes: perl-reaper
 Provides:  perl-reaper
 Provides:  perl(reaper)
 
+BuildRequires:	make
 %description
 Support for reaping child processes via $SIG{CHLD} 
 
