@@ -2,14 +2,14 @@
 %define upstream_version 1.00
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Version:    %{upstream_version}
+Release:    2
 
 Summary:	Support for reaping child processes via $SIG{CHLD} 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Reaper/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Reaper
+Source0:    https://cpan.metacpan.org/authors/id/J/JG/JGS/Reaper-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
